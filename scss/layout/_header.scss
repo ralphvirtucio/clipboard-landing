@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/bg-header-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block-start: 7rem;
+  padding-block-end: 5rem;
+  &__logo {
+    width: 10rem;
+  }
+}

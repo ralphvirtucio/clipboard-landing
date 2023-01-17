@@ -1,0 +1,53 @@
+.introductory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-block-end: 10rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-block-end: 5rem;
+
+  &__features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    margin-block-end: 10rem;
+  }
+
+  &-devices {
+    margin-block-end: 10rem;
+  }
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+
+  &--2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.feature {
+  &__desc {
+    color: var(--neutral-color-2);
+  }
+}

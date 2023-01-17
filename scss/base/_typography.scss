@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+.heading {
+  color: var(--neutral-color-1);
+  line-height: normal;
+
+  &--main {
+    font-size: 2rem;
+    margin-block-end: 1rem;
+  }
+
+  &--sub {
+    margin-block-end: 1rem;
+  }
+
+  &--tertiary {
+    font-size: 1.25rem;
+
+    margin-block-end: 0.55rem;
+  }
+}
+
+.text-content {
+  color: var(--neutral-color-2);
+  font-size: var(--fs-body);
+}
