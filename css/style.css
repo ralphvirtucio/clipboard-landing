@@ -109,7 +109,7 @@ body {
 }
 
 main {
-  padding-inline: 2rem;
+  padding-inline: 1rem;
   margin-block-end: 10rem;
 }
 
@@ -124,14 +124,33 @@ main {
   color: var(--neutral-color-1);
 }
 
+.btn {
+  border-radius: 100px;
+  padding-inline: 5rem;
+  padding-block: 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.btn:link, .btn:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.btn--ios {
+  background-color: var(--primary-color-1);
+  border-bottom: 3px solid rgb(34, 146, 129);
+  box-shadow: 0 5px 5px rgba(38, 186, 164, 0.38);
+}
+.btn--mac {
+  background-color: var(--primary-color-2);
+  border-bottom: 3px solid rgb(68, 80, 168);
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   padding-block-start: 7rem;
   padding-block-end: 5rem;
 }
@@ -216,6 +235,14 @@ main {
   align-items: center;
   gap: 5rem;
   margin-block-end: 10rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .footer {

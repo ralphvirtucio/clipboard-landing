@@ -84,3 +84,11 @@
   gap: 5rem;
   margin-block-end: 10rem;
 }
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

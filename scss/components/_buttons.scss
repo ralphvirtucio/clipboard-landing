@@ -1,0 +1,24 @@
+.btn {
+  border-radius: 100px;
+  padding-inline: 5rem;
+  padding-block: 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &--ios {
+    background-color: var(--primary-color-1);
+    border-bottom: 3px solid rgb(34, 146, 129);
+    box-shadow: 0 5px 5px rgba(38, 186, 164, 0.38);
+  }
+
+  &--mac {
+    background-color: var(--primary-color-2);
+    border-bottom: 3px solid rgb(68, 80, 168);
+  }
+}
