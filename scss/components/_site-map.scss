@@ -4,10 +4,35 @@
   place-items: center;
   row-gap: 2rem;
 
+  @media only screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 5rem;
+    place-items: start;
+  }
+
   &__item {
-    a {
+    a:link,
+    a:visited {
       text-decoration: none;
       color: var(--neutral-color-1);
     }
+
+    a:hover,
+    a:focus {
+      color: var(--primary-color-1);
+    }
+  }
+}
+
+#contact-us {
+  @media only screen and (min-width: 1024px) {
+    grid-row: 2;
+  }
+}
+
+#press-kit {
+  @media only screen and (min-width: 1024px) {
+    grid-row: 2;
   }
 }

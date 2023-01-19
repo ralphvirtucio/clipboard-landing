@@ -2,11 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // background-image: url('../images/bg-header-mobile.png');
+  background-image: url('../images/bg-header-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding-block-start: 7rem;
   padding-block-end: 5rem;
+
+  @media only screen and (min-width: 768px) {
+    background-image: url('../images/bg-header-desktop.png');
+  }
+
   &__logo {
     width: 8rem;
   }

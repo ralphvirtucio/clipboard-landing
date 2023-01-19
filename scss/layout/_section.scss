@@ -24,13 +24,38 @@
     gap: 3rem;
     margin-block-end: 10rem;
 
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;
+      text-align: start;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      gap: 8rem;
+    }
+
     &--2 {
       margin-block-end: 10rem;
+    }
+
+    img {
+      @media only screen and (min-width: 1024px) {
+        margin-inline-start: -16rem;
+      }
     }
   }
 
   &-devices {
     margin-block-end: 10rem;
+
+    @media only screen and (min-width: 1024px) {
+      margin-block-end: 5rem;
+    }
+
+    img {
+      @media only screen and (min-width: 1024px) {
+        margin: 0 auto;
+      }
+    }
   }
 }
 
@@ -45,12 +70,20 @@
   gap: 3rem;
   align-items: center;
 
+  @media only screen and (min-width: 1024px) {
+    align-items: flex-start;
+  }
+
   &--2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;
+    }
   }
 }
 
@@ -66,6 +99,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media only screen and (min-width: 1024px) {
+    width: 30%;
+  }
 
   img {
     margin-block-end: 2rem;
@@ -83,6 +120,11 @@
   align-items: center;
   gap: 5rem;
   margin-block-end: 10rem;
+
+  @media only screen and (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .cta {
@@ -90,5 +132,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
+
+  @media only screen and (min-width: 1024px) {
+    flex-direction: row;
+  }
 }

@@ -11,14 +11,25 @@
     color: #fff;
   }
 
-  &--ios {
+  &--ios:link,
+  &--ios:visited {
     background-color: var(--primary-color-1);
     border-bottom: 3px solid rgb(34, 146, 129);
     box-shadow: 0 5px 5px rgba(38, 186, 164, 0.38);
+
+    &:hover,
+    &:focus {
+      background-color: rgba(38, 186, 164, 0.7);
+    }
   }
 
   &--mac {
     background-color: var(--primary-color-2);
     border-bottom: 3px solid rgb(68, 80, 168);
+
+    &:hover,
+    &:focus {
+      background-color: rgba(97, 115, 255, 0.7);
+    }
   }
 }
