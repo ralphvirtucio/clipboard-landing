@@ -183,6 +183,13 @@ main {
   padding-block: 1rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
   cursor: pointer;
+  font-weight: var(--fw-600);
+  font-size: var(--fs-body);
+}
+@media only screen and (min-width: 1024px) {
+  .btn {
+    padding-inline: 3rem;
+  }
 }
 .btn:link, .btn:visited {
   text-decoration: none;
