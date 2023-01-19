@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  padding-block-start: 3rem;
+  padding-block-end: 3rem;
+
+  &__col--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-end: 3rem;
+  }
+
+  &__col--2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+
+    a svg {
+      width: 24px;
+      height: 24px;
+
+      path {
+        fill: var(--neutral-color-1);
+      }
+    }
+  }
+
+  &__logo {
+    width: 4rem;
+    margin-block-end: 3rem;
+  }
+}

@@ -3,5 +3,8 @@
 
 @use './pages/home';
 
+@use './components/site-map';
+
 @use './layout/header';
 @use './layout/section';
+@use './layout/footer';

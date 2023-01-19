@@ -1,0 +1,13 @@
+.site-map {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  row-gap: 2rem;
+
+  &__item {
+    a {
+      text-decoration: none;
+      color: var(--neutral-color-1);
+    }
+  }
+}
